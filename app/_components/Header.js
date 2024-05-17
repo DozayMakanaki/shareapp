@@ -18,11 +18,11 @@ function Header() {
       <nav aria-label="Global" className="hidden md:block">
         <ul className="flex items-center gap-6 text-sm">
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Home </a>
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+            <a className="text-gray-500 transition hover:text-gray-500/75" href="#">Upload</a>
           </li>
 
           <li>
@@ -30,11 +30,11 @@ function Header() {
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
+            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Contact us </a>
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
+            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About us </a>
           </li>
 
           <li>
@@ -46,18 +46,13 @@ function Header() {
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
-            className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white transition hover:bg-green-400"
             href="#"
           >
-            Login
+            Get Started
           </a>
 
-          <a
-            className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-            href="#"
-          >
-            Register
-          </a>
+      
         </div>
 
         <button
