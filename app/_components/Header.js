@@ -1,4 +1,8 @@
+
+
 import React from 'react'
+import DarkModeToggle from './DarkModeToggle'
+
 
 function Header() {
   return (
@@ -67,6 +71,8 @@ function Header() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
+
+        <DarkModeToggle />
       </div>
     </div>
   </div>
