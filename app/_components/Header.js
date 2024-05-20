@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <div><header className="bg-white">
-  <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+    <div><header className="fixed top-0 w-full bg-white">
+  <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 border-b">
     <a className="block text-teal-600" href="#">
       <span className="sr-only">Home</span>
       <svg className="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,9 +37,6 @@ function Header() {
             <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About us </a>
           </li>
 
-          <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-          </li>
         </ul>
       </nav>
 
