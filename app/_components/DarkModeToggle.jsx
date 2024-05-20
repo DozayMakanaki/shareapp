@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useDarkMode } from "../context/DarkModeContext";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 const DarkModeToggle = () => {
   const { darkMode, setDarkMode } = useDarkMode();
@@ -13,9 +14,10 @@ const DarkModeToggle = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-2 rounded-lg bg-gray-300 dark:bg-gray-700 text-black dark:text-white transition-colors duration-300 focus:outline-none"
+      className="p-2 rounded-lg   text-black dark:text-white transition-colors duration-300 focus:outline-none flex items-center"
     >
-      Toggle Dark Mode
+      {darkMode ? <FaSun className="mr-2" /> : <FaMoon className="mr-2" />}
+      
     </button>
   );
 };
